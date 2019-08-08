@@ -1,7 +1,7 @@
-let row1 = document.getElementsByClassName("row1");
+// let game = document.getElementsByClassName("game");
+// game.removeClass("iframe-class-resize").css({ width : '626px', height : '50vh' })
+let about = document.getElementsByClassName("about");
 
-function background(){
-    row1[0].style.backgroundColor = "rbg(0, 255, 0)";
+if (screen.width < 800){
+    about[0].innerText = ""
 }
-
-row1[0].addEventListener("click", background);
